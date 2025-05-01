@@ -1,0 +1,246 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Integral CF';
+    src: url('./assets/IntegralCF-Medium.woff2') format('woff2'),
+         url('./assets/IntegralCF-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF';
+    src: url('./assets/IntegralCF-BoldOblique.woff2') format('woff2'),
+         url('./assets/IntegralCF-MediumOblique.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF';
+    src: url('./assets/IntegralCF-HeavyOblique.woff2') format('woff2'),
+         url('./assets/IntegralCF-HeavyOblique.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF Extra';
+    src: url('./assets/IntegralCF-ExtraBold.woff2') format('woff2'),
+         url('./assets/IntegralCF-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF Demi';
+    src: url('./assets/IntegralCF-DemiBold.woff2') format('woff2'),
+         url('./assets/IntegralCF-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF Extra';
+    src: url('./assets/IntegralCF-ExtraBoldOblique.woff2') format('woff2'),
+         url('./assets/IntegralCF-ExtraBoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF';
+    src: url('./assets/IntegralCF-Heavy.woff2') format('woff2'),
+         url('./assets/IntegralCF-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF Demi';
+    src: url('./assets/IntegralCF-DemiBoldOblique.woff2') format('woff2'),
+         url('./assets/IntegralCF-DemiBoldOblique.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF';
+    src: url('./assets/IntegralCF-RegularOblique.woff2') format('woff2'),
+         url('./assets/IntegralCF-RegularOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF';
+    src: url('./assets/IntegralCF-Bold.woff2') format('woff2'),
+         url('./assets/IntegralCF-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF';
+    src: url('./assets/IntegralCF-Regular.woff2') format('woff2'),
+         url('./assets/IntegralCF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Integral CF';
+    src: url('./assets/IntegralCF-BoldOblique.woff2') format('woff2'),
+         url('./assets/IntegralCF-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/Satoshi-BlackItalic.woff2') format('woff2'),
+         url('./assets/Satoshi-BlackItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/Satoshi-Bold.woff2') format('woff2'),
+         url('./assets/Satoshi-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/Satoshi-Black.woff2') format('woff2'),
+         url('./assets/Satoshi-Black.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/Satoshi-Medium.woff2') format('woff2'),
+         url('./assets/Satoshi-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/Satoshi-MediumItalic.woff2') format('woff2'),
+         url('./assets/Satoshi-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/Satoshi-Italic.woff2') format('woff2'),
+         url('./assets/Satoshi-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/Satoshi-Regular.woff2') format('woff2'),
+         url('./assets/Satoshi-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/Satoshi-Light.woff2') format('woff2'),
+         url('./assets/Satoshi-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/Satoshi-BoldItalic.woff2') format('woff2'),
+         url('./assets/Satoshi-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/Satoshi-LightItalic.woff2') format('woff2'),
+         url('./assets/Satoshi-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+body{
+    font-family: 'Satoshi';
+    font-weight: 400;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Integral CF';
+    font-weight: bold;
+}
+
+
+.slick-prev {
+  position: absolute;
+  right: 50px;
+  top: -55px;
+}
+
+.slick-next {
+    position: absolute;
+    right: 10px;
+    top: -55px;
+}
+
+.slick-prev img,
+.slick-next img{
+    width: 20px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.slick-prev img:hover,
+.slick-next img:hover{
+    width: 25px;
+}
+
+
+.product_box h3{
+    font-family: 'Satoshi';
+}
+.product_box h4{
+    font-family: 'Satoshi';
+}
+
+

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <!-- linkjQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- slick-carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- slickcss -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <!-- Header -->
+
+    <div class="w-full bg-black">
+        <div class="max-w-[1240px] m-auto h-[38px] flex items-center justify-center text-center text-[14px] text-white leading-6 header_top_text px-6 relative">
+            Sign up and get 20% off to your first order. <a class="font-medium underline ml-1" href="#">Sign Up Now</a>
+            <img class="absolute right-0" src="./assets/Vector (32).svg" alt="">
+        </div>
+    </div>
+
+    <div class="w-full py-6 px-6">
+
+        <div class="flex m-auto max-w-[1240px] justify-between items-center">
+    
+            <div class="min-w-[155px]"> <img  src="./assets/SHOP.CO.png" alt=""></div>
+    
+            <div class="w-[32%] flex justify-center">
+                <ul class="flex gap-8">
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">On Sale</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </div>
+    
+            <div class="w-[46%] min-h-[48px] bg-[#F0F0F0] flex py-2 px-4.5 rounded-full gap-3">
+    
+                <img class="w-[20px]" src="./assets/search.svg" alt="">
+                <input class="text-[#00000066] w-full" type="text" placeholder="Search for products...">
+    
+            </div>
+    
+            <div class="w-[8%] flex justify-end items-center gap-3.5">
+                <a href="#"><img class="w-[22px]" src="./assets/cart-icon.svg" alt=""></a>
+                <a href="#"><img class="w-[22px]" src="./assets/user-icon.svg" alt=""></a>
+            </div>
+    
+        </div>
+    
+    </div>
+
+    <!-- Hero -->
+
+    <div class="w-full bg-[#f2f0f1] pt-8 px-6 overflow-hidden">
+
+        <div class="max-w-[1240px] flex m-auto gap-8">
+    
+            <div class="w-1/2 flex gap-6 flex-col items-start pt-13">
+    
+                <h1 class="text-[64px] leading-[64px] font-bold">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                <p class="text-[#00000099] leading-[20px] max-w-[550px] pb-2">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+                <a class="py-[13px] px-[66px] border border-black bg-black rounded-full text-white font-medium hover:bg-white hover:text-black transition duration-300" href="#">Shop Now</a>
+    
+                <div class="flex gap-20 mt-7 w-[590px]">
+    
+                    <div>
+                        <p class="text-[40px] leading-[50px] font-bold">200+</p>
+                        <p class="text[#00000099] text-[15px]">International Brands</p>
+                    </div>
+    
+                    <div class="-mr-2 -ml-2">
+                        <p class="text-[40px] leading-[50px] font-bold">2,000+</p>
+                        <p class="text[#00000099] text-[15px]">High-Quality Products</p>
+                    </div>
+    
+                    <div class="-mr-2">
+                        <p class="text-[40px] leading-[50px] font-bold">30,000+</p>
+                        <p class="text[#00000099] text-[15px]">Happy Customers</p>
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+            <div class="w-1/2 relative">
+                <img class="w-[80px] absolute top-16 -right-8" src="./assets/hero2.png" alt="Hero">
+                <img class="w-[45px] absolute top-58 left-10" src="./assets/hero3.png" alt="Hero">
+                <img class="-mr-9 ml-10 -mb-11 mt-2  max-w-[690px]" src="./assets/hero.webp" alt="Hero">
+            </div>
+    
+        </div>
+    
+    </div>
+
+    <!-- Logo -->
+
+    <div class="bg-black w-full px-6">
+
+        <div class="max-w-[1240px] m-auto flex items-center justify-between h-[122px]">
+    
+            <img src="./assets/logo1.png" alt="">
+            <img src="./assets/logo2.png" alt="">
+            <img src="./assets/logo3.png" alt="">
+            <img src="./assets/logo4.png" alt="">
+            <img src="./assets/logo5.png" alt="">
+    
+        </div>
+    
+    </div>
+
+
+    <!-- Products -->
+
+    <div class="w-full pt-17 pb-10 px-6">
+
+        <div class="max-w-[1240px] m-auto flex items-center flex-col justify-center gap-11 border-b-[1px] border-b-[#0000001A] pb-20">
+        
+            <div>
+                <h2 class="text-[48px] font-bold text-center uppercase">NEW ARRIVALS</h2>
+            </div>
+        
+            <div class="flex gap-6">
+
+                <div class="product_box ">
+
+                    <div class="bg-[#F0EEED] overflow-hidden rounded-[20px] mb-4"> 
+                    <img src="./assets/image-7.png" alt=""> 
+                    </div>
+                
+                    <h3 class="text-[20px] font-bold">T-shirt with Tape Details</h3>
+                
+                    <div class="flex gap-2 items-center mt-1.5">
+                        <div class="flex gap-1">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                        </div>
+                        <p class="text-[14px]">4.5/5</p>
+                    </div>
+
+                    <h4 class="text-[24px] font-semibold mt-1.5">$120</h4>
+                
+                </div>
+
+                <div class="product_box ">
+
+                    <div class="bg-[#F0EEED] overflow-hidden rounded-[20px] mb-4"> 
+                    <img src="./assets/SkinnyFitJeans.png" alt=""> 
+                    </div>
+                
+                    <h3 class="text-[20px] font-bold">Skinny Fit Jeans</h3>
+                
+                    <div class="flex gap-2 items-center mt-1.5">
+                        <div class="flex gap-1">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                        </div>
+                        <p class="text-[14px]">4.5/5</p>
+                    </div>
+
+                    <h4 class="text-[24px] font-semibold mt-1.5">$120</h4>
+                
+                </div>
+
+                <div class="product_box ">
+
+                    <div class="bg-[#F0EEED] overflow-hidden rounded-[20px] mb-4"> 
+                    <img src="./assets/checkeredshirt.png" alt=""> 
+                    </div>
+                
+                    <h3 class="text-[20px] font-bold">Checkered Shirt</h3>
+                
+                    <div class="flex gap-2 items-center mt-1.5">
+                        <div class="flex gap-1">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                        </div>
+                        <p class="text-[14px]">4.5/5</p>
+                    </div>
+
+                    <h4 class="text-[24px] font-semibold mt-1.5">$120</h4>
+                
+                </div>
+
+                <div class="product_box ">
+
+                    <div class="bg-[#F0EEED] overflow-hidden rounded-[20px] mb-4"> 
+                    <img src="./assets/sleevestripedt-shirt.png" alt=""> 
+                    </div>
+                
+                    <h3 class="text-[20px] font-bold">Sleeve Striped T-shirt</h3>
+                
+                    <div class="flex gap-2 items-center mt-1.5">
+                        <div class="flex gap-1">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                        </div>
+                        <p class="text-[14px]">4.5/5</p>
+                    </div>
+
+                    <h4 class="text-[24px] font-semibold mt-1.5">$120</h4>
+                
+                </div>
+
+            </div>
+        
+            <div>
+                <a class="py-[16px] px-[85px] rounded-full border border-[#0000001A] hover:bg-black hover:text-white duration-300" href="#">View All</a>
+            </div>
+        
+        </div>
+        
+        </div>
+
+    <!-- top selling -->
+
+    <div class="w-full pt-4 pb-17 px-6">
+
+        <div class="max-w-[1240px] m-auto flex items-center flex-col justify-center gap-11">
+        
+            <div>
+                <h2 class="text-[48px] font-bold text-center uppercase">TOP selling</h2>
+            </div>
+        
+            <div class="flex gap-6">
+
+                <div class="product_box ">
+
+                    <div class="bg-[#F0EEED] overflow-hidden rounded-[20px] mb-4"> 
+                    <img src="./assets/verticalstripedshirt.png" alt=""> 
+                    </div>
+                
+                    <h3 class="text-[20px] font-bold">Vertical Striped Shirt</h3>
+                
+                    <div class="flex gap-2 items-center mt-1.5">
+                        <div class="flex gap-1">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                        </div>
+                        <p class="text-[14px]">4.5/5</p>
+                    </div>
+
+                    <h4 class="text-[24px] font-semibold mt-1.5">$120</h4>
+                
+                </div>
+
+                <div class="product_box ">
+
+                    <div class="bg-[#F0EEED] overflow-hidden rounded-[20px] mb-4"> 
+                    <img src="./assets/couragegraphict-shirt.png" alt=""> 
+                    </div>
+                
+                    <h3 class="text-[20px] font-bold">Courage Graphic T-shirt</h3>
+                
+                    <div class="flex gap-2 items-center mt-1.5">
+                        <div class="flex gap-1">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                        </div>
+                        <p class="text-[14px]">4.5/5</p>
+                    </div>
+
+                    <h4 class="text-[24px] font-semibold mt-1.5">$120</h4>
+                
+                </div>
+
+                <div class="product_box ">
+
+                    <div class="bg-[#F0EEED] overflow-hidden rounded-[20px] mb-4"> 
+                    <img src="./assets/loosefitbermudashorts.png" alt=""> 
+                    </div>
+                
+                    <h3 class="text-[20px] font-bold">Loose Fit Bermuda Shorts</h3>
+                
+                    <div class="flex gap-2 items-center mt-1.5">
+                        <div class="flex gap-1">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                        </div>
+                        <p class="text-[14px]">4.5/5</p>
+                    </div>
+
+                    <h4 class="text-[24px] font-semibold mt-1.5">$120</h4>
+                
+                </div>
+
+                <div class="product_box ">
+
+                    <div class="bg-[#F0EEED] overflow-hidden rounded-[20px] mb-4"> 
+                    <img src="./assets/image-7.png" alt=""> 
+                    </div>
+                
+                    <h3 class="text-[20px] font-bold">Faded Skinny Jeans</h3>
+                
+                    <div class="flex gap-2 items-center mt-1.5">
+                        <div class="flex gap-1">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                                <img class="w-[18px]" src="./assets/star.svg" alt="">
+                        </div>
+                        <p class="text-[14px]">4.5/5</p>
+                    </div>
+
+                    <h4 class="text-[24px] font-semibold mt-1.5">$120</h4>
+                
+                </div>
+
+            </div>
+        
+            <div class="mt-1">
+                <a class="py-[16px] px-[85px] rounded-full border border-[#0000001A] hover:bg-black hover:text-white duration-300" href="#">View All</a>
+            </div>
+        
+        </div>
+        
+        </div>
+    
+
+        <!-- category-box -->
+
+        <div class="w-full py-8 px-6 ">
+
+
+            <div class="max-w-[1240px] flex flex-col gap-16 m-auto bg-[#F0F0F0] rounded-[40px] p-17">
+        
+                <div><h2 class="text-center font-bold text-[48px] leading-[55px] ">BROWSE BY dress STYLE</h2></div>
+        
+                <div class="flex flex-wrap gap-x-[2%] gap-y-6 ">
+        
+                    <div class="w-[36%] min-h-[290px] rounded-[20px] bg-white bg-[url('./assets/casual.png')] bg-cover bg-center px-9 py-6">
+                        <p class="text-[36px] font-semibold">Casual</p>
+                    </div>
+                    <div class="w-[62%] min-h-[290px] rounded-[20px] bg-white bg-[url('./assets/formal.png')] bg-cover bg-center px-9 py-6">
+                        <p class="text-[36px] font-semibold">Formal</p>
+                    </div>
+                    <div class="w-[62%] min-h-[290px] rounded-[20px] bg-white bg-[url('./assets/party.png')] bg-cover bg-center px-9 py-6">
+                        <p class="text-[36px] font-semibold">Party</p>
+                    </div>
+                    <div class="w-[36%] min-h-[290px] rounded-[20px] bg-white bg-[url('./assets/gym.png')] bg-cover bg-center px-9 py-6">
+                        <p class="text-[36px] font-semibold">Gym</p>
+                    </div>
+                    
+        
+                </div>
+                
+            </div>
+        
+        </div>
+
+        <!-- carousel -->
+
+        <div class="w-full py-11 px-6">
+
+            <div class="max-w-[1240px] flex flex-col gap-7 m-auto">
+        
+                <div>
+                    <h2 class="font-bold text-[48px]">OUR HAPPY CUSTOMERS</h2>
+                </div>
+        
+                <script>
+                    $(document).ready(function(){
+                      $('.carousel_main').slick({
+                        arrows: true,
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        prevArrow: '<button class="slick-prev"><img src="assets/left.svg" alt="Prev"></button>',
+                        nextArrow: '<button class="slick-next"><img src="assets/right.svg" alt="Next"></button>',
+                      });
+                    });
+                  </script>
+                  
+        
+                <div class="carousel_main -mx-[10px]">
+        
+
+        
+                        <div class="p-[10px]">
+                            <div class="border border-[#0000001A] py-[28px] px-[32px] rounded-[20px]">
+        
+                                <div class="flex gap-[6px]">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                </div>
+        
+                                <div class="flex gap-[4px] mb-[7px] mt-[12px]">
+                                    <p class="text-[20px] font-bold">Sarah M.</p>
+                                    <img class="w-[19px]" src="./assets/check.svg"alt="">
+                                </div>
+        
+                                <p class="text-[16px] text-[#00000099] leading-[22px]">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                            </div>
+                        </div>
+
+                        <div class="p-[10px]">
+                            <div class="border border-[#0000001A] py-[28px] px-[32px] rounded-[20px]">
+        
+                                <div class="flex gap-[6px]">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                </div>
+        
+                                <div class="flex gap-[4px] mb-[7px] mt-[12px]">
+                                    <p class="text-[20px] font-bold">Sarah M.</p>
+                                    <img class="w-[19px]" src="./assets/check.svg"alt="">
+                                </div>
+        
+                                <p class="text-[16px] text-[#00000099] leading-[22px]">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                            </div>
+                        </div>
+                        <div class="p-[10px]">
+                            <div class="border border-[#0000001A] py-[28px] px-[32px] rounded-[20px]">
+        
+                                <div class="flex gap-[6px]">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                </div>
+        
+                                <div class="flex gap-[4px] mb-[7px] mt-[12px]">
+                                    <p class="text-[20px] font-bold">Sarah M.</p>
+                                    <img class="w-[19px]" src="./assets/check.svg"alt="">
+                                </div>
+        
+                                <p class="text-[16px] text-[#00000099] leading-[22px]">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                            </div>
+                        </div>
+                        <div class="p-[10px]">
+                            <div class="border border-[#0000001A] py-[28px] px-[32px] rounded-[20px]">
+        
+                                <div class="flex gap-[6px]">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                </div>
+        
+                                <div class="flex gap-[4px] mb-[7px] mt-[12px]">
+                                    <p class="text-[20px] font-bold">Sarah M.</p>
+                                    <img class="w-[19px]" src="./assets/check.svg"alt="">
+                                </div>
+        
+                                <p class="text-[16px] text-[#00000099] leading-[22px]">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                            </div>
+                        </div>
+                        <div class="p-[10px]">
+                            <div class="border border-[#0000001A] py-[28px] px-[32px] rounded-[20px]">
+        
+                                <div class="flex gap-[6px]">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                    <img class="w-[22px]" src="./assets/star.svg" alt="">
+                                </div>
+        
+                                <div class="flex gap-[4px] mb-[7px] mt-[12px]">
+                                    <p class="text-[20px] font-bold">Sarah M.</p>
+                                    <img class="w-[19px]" src="./assets/check.svg"alt="">
+                                </div>
+        
+                                <p class="text-[16px] text-[#00000099] leading-[22px]">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+        
+            </div>
+        
+        </div>
+
+
+    <!-- Footer -->
+
+    <div class="w-full mt-12 -mb-22 relative z-10 px-6">
+
+        <div class="max-w-[1240px] min-h-[180px] m-auto flex bg-[#000000]  py-9 px-16 rounded-[20px] items-center">
+
+            <div class="w-[55%]">
+                <h3 class="text-white text-[40px] font-bold leading-[45px]">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h3>
+            </div>
+
+            <div class="w-[45%] flex items-end flex-col gap-3 ">
+
+                <div class="flex min-w-[350px] min-h-[48px] bg-white flex py-2 px-3.5 rounded-full gap-3">
+                    <img class="w-[20px]" src="./assets/email.svg" alt="">
+                    <input class="text-5 w-full" type="text" placeholder="Enter your email address">
+                </div>
+
+                <button class="min-w-[350px] min-h-[48px] items-center bg-white text-black cursor-pointer font-medium flex py-2 px-3.5 rounded-full justify-center duration-300 hover:bg-[#e2e2e2]">Subscribe to Newsletter</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="bg-[#F0F0F0] w-full pt-34 pb-15 px-6">
+
+        <div class="max-w-[1240px] m-auto flex gap-5">
+
+            <div class="w-[30%] flex gap-5 flex-col">
+                <img class="w-[155px]" src="./assets/SHOP.CO.png" alt="">
+                <p class="text-[14px] leading-[22px] text-[#00000099] max-w-[250px]">We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+                <div class="flex gap-3 mt-4">
+                    <a href="#"><img class="w-7" src="./assets/x.svg" alt=""></a>
+                    <a href="#"><img class="w-7" src="./assets/facebook.svg" alt=""></a>
+                    <a href="#"><img class="w-7" src="./assets/instagram.svg" alt=""></a>
+                    <a href="#"><img class="w-7" src="./assets/github.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="w-[17.5%] flex flex-col gap-5">
+                <p class="text-black font-medium tracking-[3px] uppercase">Company</p>
+                <ul class="text-[#00000099] leading-[19px] flex gap-4 flex-col">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+
+            <div class="w-[17.5%] flex flex-col gap-5">
+                <p class="text-black font-medium tracking-[3px] uppercase">Help</p>
+                <ul class="text-[#00000099] leading-[19px] flex gap-4 flex-col">
+                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">Delivery Details</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="w-[17.5%] flex flex-col gap-5 pl-4">
+                <p class="text-black font-medium tracking-[3px] uppercase">FAQ</p>
+                <ul class="text-[#00000099] leading-[19px] flex gap-4 flex-col">
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Manage Deliveries</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Payments</a></li>
+                </ul>
+            </div>
+
+            <div class="w-[17.5%] flex flex-col gap-5 pl-13">
+                <p class="text-black font-medium tracking-[3px] uppercase">Resources</p>
+                <ul class="text-[#00000099] leading-[19px] flex gap-4 flex-col">
+                    <li><a href="#">Free eBooks</a></li>
+                    <li><a href="#">Development Tutorial</a></li>
+                    <li><a href="#">How to - Blog</a></li>
+                    <li><a href="#">Youtube Playlist</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="w-full pb-15 px-6 bg-[#F0F0F0]">
+
+        <div class="flex max-w-[1240px] m-auto items-center border-t border-[#d8d8d8] pt-4">
+
+            <div class="w-[50%]">
+                <p class="text-[14px] text-[#00000099]">Shop.co © 2000-2023, All Rights Reserved</p>
+            </div>
+            
+            <div class="w-[50%] flex justify-end">
+                <a href="#"><img class="w-[60px]" src="assets/Badge.svg" alt=""></a>
+                <a href="#"><img class="w-[60px]" src="assets/Badge1.svg" alt=""></a>
+                <a href="#"><img class="w-[60px]" src="assets/Badge2.svg" alt=""></a>
+                <a href="#"><img class="w-[60px]" src="assets/Badge3.svg" alt=""></a>
+                <a href="#"><img class="w-[60px]" src="assets/Badge4.svg" alt=""></a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
